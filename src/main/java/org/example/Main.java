@@ -16,10 +16,5 @@ public class Main {
     operations.put(Operation.SUBTRACT, new SubtractOperation());
     operations.put(Operation.MULTIPLY, new MultiplyOperation());
     operations.put(Operation.DIVIDE, new DivideOperation());
-
-    IOperation operation = operations.get(Operation.valueOf("POWER"));
-    if (operation == null) {
-      throw new IllegalArgumentException("Unsupported operation");
-    }
   }
 }
