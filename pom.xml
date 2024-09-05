@@ -29,7 +29,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Optional: Spring Framework for IoC -->
+        <!-- Spring Framework for IoC -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>

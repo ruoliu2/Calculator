@@ -65,6 +65,32 @@ Use Chain of Responsibility Pattern to passing calculation along a chain of hand
 
 test both unit test on each operation, also on correct handling of unsupported operation and  chaining of operations
 
+
+
+8. ###### Assumption
+
+- **Basic and Additional Operations**: Initial support for basic operations, with the ability to add more.
+- **Chaining Execution**: Sequential application of operations.
+- **Error Handling**: Graceful handling of invalid operations and division by zero.
+- **IoC and Dependency Management**: Flexible dependency management through IoC.
+- **Precision and Edge Cases**: Handling of numerical precision and edge cases with `double`.
+- **Testing**: Comprehensive testing coverage and proper environment configuration.
+- **Extensibility**: Modular design for easy extension and maintenance.
+
+
+
+9. ###### Technology
+
+Java 17, JUnit
+
+
+
+10. ###### Improvement
+
+support for other operators
+
+support for evaluating calculation with variables: for example, support 3 * x = 3x
+
 ## Usage
 
 ###### Basic Calculation
@@ -81,3 +107,14 @@ double result = calculator.withInitialValue(5.0)
                           .getResult();
 System.out.println(result); // Outputs 16.0
 ```
+
+
+
+
+
+In readme file can you also include if there are any assumption and any technologies that you used such as Java version, Junit etc 
+
+Also if any comments or future improvements possible and you want to include.
+
+
+
