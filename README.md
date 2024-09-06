@@ -108,10 +108,4 @@ System.out.
 println(result); // Outputs 16.0
 ```
 
-In readme file can you also include if there are any assumption and any technologies that you used such as Java version,
-Junit etc
-
-Also if any comments or future improvements possible and you want to include.
-
-
 
